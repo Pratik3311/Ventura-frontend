@@ -1,5 +1,6 @@
 # 📈 IPO Tracker Application
 Demo Link : https://ventura-frontend-nfke.vercel.app/
+
 A modern, responsive React application for tracking Initial Public Offerings (IPOs) with detailed information, timeline visualization, and mobile-optimized design.
 
 ![IPO Tracker Banner](./screenshots/banner.png)
