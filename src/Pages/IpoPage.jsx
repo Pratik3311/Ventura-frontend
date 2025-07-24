@@ -81,7 +81,7 @@ const mockIPODetails = {
   },
 }
 
-export default function IPODetailsPage() {
+export default function IpoPage() {
   const { id } = useParams()
   const ipo = mockIPODetails[id]
   const [isExpanded, setIsExpanded] = useState(false)
