@@ -7,7 +7,7 @@ A modern, responsive React application for tracking Initial Public Offerings (IP
 
 <img width="1240" height="923" alt="final2" src="https://github.com/user-attachments/assets/99012f32-edef-4af3-a87e-f1f2831022ea" />
 
-https://github.com/user-attachments/assets/b1fdd2c6-ace3-4522-964c-9270014eadc5
+Mobile Preview : https://github.com/user-attachments/assets/b1fdd2c6-ace3-4522-964c-9270014eadc5
 
 ## ✨ Features
 
@@ -67,90 +67,19 @@ Make sure you have the following installed:
    npm start
    # or
    yarn start
+   #or
+   npm run dev
    ```
 
 5. **Open your browser**
-   Navigate to `http://localhost:3000` to view the application.
+   Navigate to `http://localhost:3000` or `http://localhost:5173` to view the application.
 
-## 🖥️ Screenshots
-
-### Desktop View
-![Desktop IPO List](./screenshots/desktop-list.png)
-*IPO List page on desktop with table layout*
-
-![Desktop IPO Details](./screenshots/desktop-details.png)
-*IPO Details page with horizontal timeline*
-
-### Tablet View
-![Tablet View](./screenshots/tablet-view.png)
-*Responsive card layout for tablet screens*
-
-### Mobile View
-![Mobile IPO List](./screenshots/mobile-list.png)
-*Mobile-optimized card layout with status badges*
-
-![Mobile IPO Details](./screenshots/mobile-details.png)
-*Mobile details page with vertical timeline and read more functionality*
 
 ## 🧪 Testing Guide
 
-### Screen Size Testing
+You can test the UI via inspect for mobile view and desktop view also if no ipo are present then what the UI shows. IPO no. 4 and 5 dont have any data can test it too.
 
-#### **Desktop Testing (1024px and above)**
-1. Open the application in your browser
-2. Resize window to full screen
-3. **Expected behavior**:
-   - Table layout for IPO list
-   - Horizontal timeline with connecting lines
-   - Full company descriptions visible
-   - All buttons and actions accessible
 
-#### **Tablet Testing (768px - 1023px)**
-1. Resize browser window to tablet size or use browser dev tools
-2. **Expected behavior**:
-   - Card layout for IPO list
-   - Horizontal timeline maintained
-   - Responsive grid for IPO details
-   - Proper spacing and typography
-
-#### **Mobile Testing (320px - 767px)**
-1. Use browser developer tools to simulate mobile devices
-2. Test on actual mobile devices if available
-3. **Expected behavior**:
-   - Vertical card layout for IPO list
-   - Vertical timeline with connecting lines
-   - Truncated text with "Read more" functionality
-   - Touch-friendly button sizes
-
-### Browser Testing
-
-Test the application across different browsers:
-- ✅ **Chrome** (Recommended)
-- ✅ **Firefox**
-- ✅ **Safari**
-- ✅ **Edge**
-
-### Feature Testing
-
-#### **Navigation Testing**
-1. Click on any IPO from the list page
-2. Verify navigation to details page
-3. Use back button to return to list
-4. Test breadcrumb navigation
-
-#### **Timeline Testing**
-1. Navigate to IPO details page
-2. Check timeline visualization:
-   - Green circles for completed steps
-   - Grey circles for pending steps
-   - Green connecting lines between completed steps
-   - Grey lines for incomplete connections
-
-#### **Mobile-Specific Testing**
-1. Test "Read more/Read less" functionality
-2. Verify timeline displays vertically
-3. Check touch interactions
-4. Test responsive button layouts
 
 ## 🛠️ Technology Stack
 
@@ -161,18 +90,6 @@ Test the application across different browsers:
 - **Icons**: Lucide React
 - **Build Tool**: Create React App
 
-## 📁 Project Structure
-
-```
-src/
-├── App.jsx                 # Main app component with routing
-├── App.css                 # App-specific styles
-├── index.css               # Global styles and Tailwind imports
-├── main.jsx                # Application entry point
-└── pages/
-    ├── IPOListPage.jsx     # IPO list page component
-    └── IPODetailsPage.jsx  # IPO details page component
-```
 
 ## 🎨 Design Features
 
