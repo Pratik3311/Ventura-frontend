@@ -5,6 +5,8 @@ A modern, responsive React application for tracking Initial Public Offerings (IP
 
 <img width="1920" height="909" alt="final1" src="https://github.com/user-attachments/assets/2853f8fe-5673-4e24-8a26-653a0861145e" />
 
+<img width="1240" height="923" alt="final2" src="https://github.com/user-attachments/assets/99012f32-edef-4af3-a87e-f1f2831022ea" />
+
 ## ✨ Features
 
 
